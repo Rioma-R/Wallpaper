@@ -13,7 +13,7 @@ function App() {
         <div className="flex flex-col gap-4 h-full">
           <WindowBox title="City" className="flex-[2] relative">
             <div className="w-full h-full flex items-center justify-center">
-              <img src="/loop.gif" alt="Cyber City" className="max-w-full max-h-full object-contain" />
+              <img src="./loop.gif" alt="Cyber City" className="max-w-full max-h-full object-contain" />
             </div>
             <div className="absolute inset-0 bg-cyber-neon mix-blend-overlay opacity-10 pointer-events-none"></div>
           </WindowBox>
@@ -59,7 +59,7 @@ function App() {
           </WindowBox>
           <WindowBox title="City" className="flex-[5] relative">
             <div className="w-full h-full flex items-center justify-center">
-              <img src="/loop2.gif" alt="Cyber City" className="max-w-full max-h-full object-contain" />
+              <img src="./loop2.gif" alt="Cyber City" className="max-w-full max-h-full object-contain" />
             </div>
             <div className="absolute inset-0 bg-cyber-neon mix-blend-overlay opacity-10 pointer-events-none"></div>
           </WindowBox>
