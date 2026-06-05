@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cyber-bg: #000000;
+  --color-cyber-neon: #ff00ff; 
+  --color-cyber-dark: #1a1a1a;
+  
+  --font-retro: "Courier New", Courier, monospace; 
+}
+
+* {
+  image-rendering: pixelated;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-cyber-bg);
+  color: var(--color-cyber-neon);
+  overflow: hidden; 
+}
+
+@keyframes terminal-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.animate-blink {
+  animation: terminal-blink 1s step-end infinite;
+}
