@@ -1,2 +1,2 @@
 # Wallpaper
-A wallpaper in React for Wallpaper Engine
+A React wallpaper for Wallpaper Engine
